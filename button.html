@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Bootstrap Buttons</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/jquery.js">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <script  src="js/jquery.js"></script>
+    <script  src="js/bootstrap.min.js"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -74,6 +75,19 @@
                  <a href="#" class="btn btn-primary">Button 2</a>
                  <a href="#" class="btn btn-primary">Button 3</a>    
                  <a href="#" class="btn btn-primary">Button 4</a>
+         </div>
+         
+         <!-- dropdown button -->
+         <div class="dropdown">
+             <buuton class="btn btn-danger dropdown-toggle" data-toggle="dropdown"> Click to dropdown</buuton>
+             <ul class="dropdown-menu">
+                 <li ><a href="#">Home</a></li>
+                 <li ><a href="#">About us</a></li>
+                 <li ><a href="#">Contact us</a></li>
+                 <li class="divider"></li>
+                 <li class="dropdown-header">personal</li>
+                 <li ><a href="#">Log Out</a></li>    
+             </ul>
          </div>
     </div>
 </body>
